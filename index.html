@@ -20,11 +20,20 @@
     <div class="container">
         <h1 id="valentineTitle"></h1>
 
+        <!-- Music Player (hidden) -->
+        <div id="musicControls" class="music-controls" style="display:none">
+            <button id="musicToggle" class="music-btn">🎵 Play Music</button>
+            <audio id="bgMusic" loop>
+                <source id="musicSource" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
         <!-- First Question -->
         <div class="question-section" id="question1">
             <h2 id="question1Text"></h2>
-                    <button class="cute-btn" onclick="showNextQuestion(2)" id="yesBtn1"></button>
-                    <button class="cute-btn" onclick="moveButton(this)" id="noBtn1"></button>
+            <button class="cute-btn" onclick="showNextQuestion(2)" id="yesBtn1"></button>
+            <button class="cute-btn" onclick="moveButton(this)" id="noBtn1"></button>
         </div>
 
         <!-- Second Question (Love Meter) -->
