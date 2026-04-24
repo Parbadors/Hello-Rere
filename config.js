@@ -33,8 +33,8 @@ const CONFIG = {
         normal: "And beyond! 🥰"
     },
     celebration: {
-        title: "Yay! 🎉💝",
-        message: "Thank you so much <3",
+        title: "Thank you so much ❤️",
+        message: "",
         emojis: "🎁💖🤗💝💋❤️💕"
     },
     colors: {
